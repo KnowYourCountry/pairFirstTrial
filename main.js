@@ -66,7 +66,7 @@ a3:"1893",
 a4:"1903",
 answer:"1903"
 },
-{question1:"Who created JavaScript programming language? ",
+{question1:"Who created JavaScript programming language ? ",
 a1:"Brendan Eich",
 a2:"Peter Parker",
 a3:"Jessy Pinkman",
