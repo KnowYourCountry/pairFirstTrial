@@ -59,7 +59,7 @@ a3:"1996",
 a4:"2006",
 answer:"1976"
 },
-{question1:"When was the first flight trail ",
+{question1:"When was the first flight trial ",
 a1:"1953",
 a2:"1943",
 a3:"1893",
@@ -73,6 +73,8 @@ a3:"Jessy Pinkman",
 a4:"Willy Wanker",
 answer:"Brendan Eich"
 }]
+
+
 
 
 $('#start').click(function () {
@@ -98,18 +100,20 @@ $('#start').click(function () {
         $("#btn3").text(questions[1].a3)
         $("#btn4").text(questions[1].a4)
         alert("You managed to pass to the next level!")
-        $(".answ").css("background-color" , "#6f6f7a") 
+        $(".answ").css("background-color" , "rgb(0, 0,0, 0)")
     } 
     else {$(eValue).css("background-color" , "red")}
 
     console.log(e.target.innerHTML)
   if(e.target.innerHTML===questions[1].answer ){
-    $(".answ").css("background-color" , "#6f6f7a") 
+  
     $("#ques").text(questions[2].question1) 
     $("#btn1").text(questions[2].a1)
     $("#btn2").text(questions[2].a2)
     $("#btn3").text(questions[2].a3)
     $("#btn4").text(questions[2].a4)
+    alert("You managed to pass to the next level!")
+    $(".answ").css("background-color" , "rgb(0, 0,0, 0)")
 }
 
     console.log(e.target.innerHTML)
@@ -119,6 +123,8 @@ $('#start').click(function () {
     $("#btn2").text(questions[3].a2)
     $("#btn3").text(questions[3].a3)
     $("#btn4").text(questions[3].a4)
+    alert("You managed to pass to the next level!")
+    $(".answ").css("background-color" , "rgb(0, 0,0, 0)")
 }
 
 
@@ -130,6 +136,8 @@ $('#start').click(function () {
     $("#btn2").text(questions[4].a2)
     $("#btn3").text(questions[4].a3)
     $("#btn4").text(questions[4].a4)
+    alert("You managed to pass to the next level!")
+    $(".answ").css("background-color" , "rgb(0, 0,0, 0)")
 }
 
 
@@ -140,6 +148,8 @@ $('#start').click(function () {
     $("#btn2").text(questions[5].a2)
     $("#btn3").text(questions[5].a3)
     $("#btn4").text(questions[5].a4)
+    alert("You managed to pass to the next level!")
+    $(".answ").css("background-color" , "rgb(0, 0,0, 0)")
 }
 
     console.log(e.target.innerHTML)
@@ -149,6 +159,8 @@ $('#start').click(function () {
     $("#btn2").text(questions[6].a2)
     $("#btn3").text(questions[6].a3)
     $("#btn4").text(questions[6].a4)
+    alert("You managed to pass to the next level!")
+    $(".answ").css("background-color" , "rgb(0, 0,0, 0)")
 }
 
     console.log(e.target.innerHTML)
@@ -158,6 +170,8 @@ if(e.target.innerHTML===questions[6].answer ){
     $("#btn2").text(questions[7].a2)
     $("#btn3").text(questions[7].a3)
     $("#btn4").text(questions[7].a4)
+    alert("You managed to pass to the next level!")
+    $(".answ").css("background-color" , "rgb(0, 0,0, 0)")
 }
 
     console.log(e.target.innerHTML)
@@ -167,6 +181,8 @@ if(e.target.innerHTML===questions[6].answer ){
     $("#btn2").text(questions[8].a2)
     $("#btn3").text(questions[8].a3)
     $("#btn4").text(questions[8].a4)
+    alert("You managed to pass to the next level!")
+    $(".answ").css("background-color" , "rgb(0, 0,0, 0)")
 }
 
     console.log(e.target.innerHTML)
@@ -176,6 +192,8 @@ if(e.target.innerHTML===questions[6].answer ){
     $("#btn2").text(questions[9].a2)
     $("#btn3").text(questions[9].a3)
     $("#btn4").text(questions[9].a4)
+    alert("You managed to pass to the next level!")
+    $(".answ").css("background-color" , "rgb(0, 0,0, 0)") 
 }
 
 
@@ -184,7 +202,11 @@ if(e.target.innerHTML===questions[6].answer ){
   if(e.target.innerHTML===questions[9].answer ){
      alert("YOU WON 1000 USD $")
  }
+
  })
+
+ 
+
 
     
         
