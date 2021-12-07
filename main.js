@@ -40,7 +40,7 @@ answer:"Canberra"
 },
 {question1:"Who painted the Mona Lisa? ",
 a1:"Michael Angelo",
-a2:"Monet",
+a2:"Monett",
 a3:"David beckam",
 a4:"Leonardo Da Vinci",
 answer:"Leonardo Da Vinci"
