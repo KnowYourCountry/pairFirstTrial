@@ -44,3 +44,15 @@
   p{
       font-size: 80%;
   }
+
+  .answ{
+      background-color: #6f6f7a;
+      width: 300px;
+      height: 220px;
+      
+    
+  }
+  .reponse{
+      margin-left: 29px;
+      margin-top: 18px;
+  }
